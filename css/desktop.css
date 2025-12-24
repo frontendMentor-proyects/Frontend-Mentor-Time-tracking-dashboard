@@ -1,0 +1,59 @@
+@media screen and (min-width: 768px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contain{
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+
+       display: grid;
+       grid-template-columns: minmax(250px, 300px) 1fr;
+       gap: 3rem;
+    }
+
+    .profile-container{
+        /* width: 25%; */
+        margin-bottom: 0;
+    }
+
+    .profile{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3rem;
+    }
+
+    .profile-info p{
+        font-size: 3rem;
+    }
+
+    .profile-info p span{
+        display: block;
+        margin-bottom: 1.5rem;
+    }
+
+    .states{
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: flex-start;
+    }
+
+    .card-container{
+        /* width: 75%; */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .card-complement{
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+
+    .card-complement .hours{
+        font-size: 4rem;
+    }
+}

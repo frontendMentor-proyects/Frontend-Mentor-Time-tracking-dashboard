@@ -1,0 +1,148 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.contain{
+    width: 95%;
+    margin: 4rem auto;
+}
+
+/*profile*/
+.profile-container{
+    background-color: var(--navy-900);
+    border-radius: 1.5rem;
+    margin-bottom: 3rem;
+    overflow: hidden;
+}
+
+.profile{
+    border-radius: 0 0 1.5rem 1.5rem;
+    background-color: var(--purple-600);
+    color: var(--navy-200);
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.profile img{
+    width: 6rem;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.profile-info p{
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.states{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.state{
+    border: none;
+    background-color: transparent;
+    color: var(--purple-500);
+}
+
+.state:hover{
+    color:#fff;
+    cursor: pointer;
+}
+
+.state.active{
+    color: #fff;
+}
+
+/*card*/
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card-contain:hover{
+    background-color: #1d204b;
+    cursor: pointer;
+}
+
+.card{
+    /* border: 1px solid red; */
+    width: 100%;
+    border-radius: 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image{
+    position: relative;
+    overflow: hidden;
+    height: 3.5rem;
+    z-index: 1; 
+}
+
+.card-image img{
+    position: absolute;
+    top: -1rem;
+    right: 2rem;
+}
+ 
+
+.card-contain{
+    background-color: var(--navy-900);
+    color: #dad9e1;
+    padding: 2rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title .title{
+    font-size: 1.8rem;
+}
+
+.card-complement{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-complement .hours{
+    font-size: 2.5rem;
+}
+
+.card-complement .previous{
+    color: var(--navy-200);
+    opacity: .7;
+    font-size: 1.5rem;
+}
+
+.card.uno{
+    background-color: var(--orange-300);
+}
+.card.dos{
+    background-color: var(--blue-300);
+}
+.card.tres{
+    background-color: var(--pink-400);
+}
+.card.cuatro{
+    background-color: var(--green-400);
+}
+.card.cinco{
+    background-color: var(--purple-700);
+}
+.card.seis{
+    background-color: var(--yellow-300);
+}
